@@ -9,5 +9,6 @@ char src[100]= "om Anna pawar";
 char dest [100];
 strcpy (dest,src);
 printf("dest=%s\n",dest);
+    
     return 0;
 }
