@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int areaoftriangle(int b, int h );
+int main(){
+int b=10,h=60;
+ int a ; 
+   int result=areaoftriangle(b,h);
+   printf("areaoftriangle:%d\n",result);
+
+    return 0;
+}  
+int areaoftriangle(int b, int h ){
+     return (0.5)*b*h;
+} 
